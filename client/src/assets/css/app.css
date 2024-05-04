@@ -1,0 +1,113 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+body{
+  background-color: white;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+.containers{
+  
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 180vh;
+  margin: 0 auto;
+}
+.read-the-docs {
+  color: #888;
+}
+
+    .contact-form {
+      max-width: 500px;
+      margin: 50px auto;
+      padding: 30px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .btn-blue {
+      background-color: #007bff; 
+      color: #ffffff;
+      border: none;
+    }
+    .btn-blue:hover {
+      background-color: #0056b3; 
+    }
+
+    .login-container {
+      margin-top: 100px;
+      max-width: 300px;
+      max-height: 600px;
+      border-radius: 10px;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-control {
+      border-color: #6c757d;
+    }
+
+    .login-btn {
+      background-color: #007bff;
+      border-color: #007bff;
+      color: #fff;
+    }
+
+    .login-btn:hover {
+      background-color: #0056b3;
+      border-color: #0056b3;
+    }
+    .form-control {
+      border-color: #333;
+  }
+  .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+  }
+  .home-image {
+    background-image: url('./images/images.jpeg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 200px 0;
+    margin-bottom: 0;
+  }
+  .box-panel {
+    background-image: url('./images/box-image.png');
+    background-size: cover;
+    height: 70px;
+  }
+  .topcourse-panel{
+    background-image: url('./images/icon-image.png');
+    background-size: cover;
+    height: 300px;
+  }
+
+  .dropdown.show .dropdown-menu {
+    opacity: 1 !important;
+}
